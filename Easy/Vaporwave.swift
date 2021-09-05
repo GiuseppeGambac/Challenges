@@ -3,15 +3,15 @@ import Foundation
 
 
 var word = "prova vaporware"
-var  carattere = String()
+var  vaporwave_word = String()
 
 
 
 for i in word{
-  var spazio = "  "
-  spazio.append(i.uppercased())
-  carattere += spazio
+  var spaces = "  "
+  spaces.append(i.uppercased())
+  vaporwave_word += spaces
 
 }
 
-print(carattere)
+print(vaporwave_word)
